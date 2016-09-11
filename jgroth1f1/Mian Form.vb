@@ -12,7 +12,6 @@ Public Class frmMain
     End Sub
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
-        txtPorjIncrease.Text = String.Empty
         txtStraw.Text = String.Empty
         lblStraw.Text = String.Empty
         txtBlue.Text = String.Empty
