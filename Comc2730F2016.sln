@@ -15,6 +15,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "jgroth1f1", "jgroth1f1\jgro
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "jgroth1g1", "jgroth1g1\jgroth1g1.vbproj", "{0F573233-E54F-4B3E-AA3A-CBA6087C0B75}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "jgroth1h1", "jgroth1h1\jgroth1h1.vbproj", "{32F89288-5F2F-4634-A33A-2D5FE9A6A411}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{0F573233-E54F-4B3E-AA3A-CBA6087C0B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F573233-E54F-4B3E-AA3A-CBA6087C0B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F573233-E54F-4B3E-AA3A-CBA6087C0B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F89288-5F2F-4634-A33A-2D5FE9A6A411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F89288-5F2F-4634-A33A-2D5FE9A6A411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F89288-5F2F-4634-A33A-2D5FE9A6A411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F89288-5F2F-4634-A33A-2D5FE9A6A411}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
