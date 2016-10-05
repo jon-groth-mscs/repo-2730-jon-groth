@@ -17,6 +17,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "jgroth1g1", "jgroth1g1\jgro
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "jgroth1h1", "jgroth1h1\jgroth1h1.vbproj", "{32F89288-5F2F-4634-A33A-2D5FE9A6A411}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "jgrothQ1Review2", "jgrothQ1Review2\jgrothQ1Review2.vbproj", "{EF2A4B53-66D3-4EC8-B543-1A8030F10B43}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "jgroth2a1", "jgroth2a1\jgroth2a1.vbproj", "{042AECCC-D2DD-4EAD-85D9-3DB2401ED25D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{32F89288-5F2F-4634-A33A-2D5FE9A6A411}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32F89288-5F2F-4634-A33A-2D5FE9A6A411}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32F89288-5F2F-4634-A33A-2D5FE9A6A411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2A4B53-66D3-4EC8-B543-1A8030F10B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2A4B53-66D3-4EC8-B543-1A8030F10B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2A4B53-66D3-4EC8-B543-1A8030F10B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2A4B53-66D3-4EC8-B543-1A8030F10B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042AECCC-D2DD-4EAD-85D9-3DB2401ED25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042AECCC-D2DD-4EAD-85D9-3DB2401ED25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042AECCC-D2DD-4EAD-85D9-3DB2401ED25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042AECCC-D2DD-4EAD-85D9-3DB2401ED25D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
