@@ -43,7 +43,7 @@ Public Class frmMain
         Dim blnIsRoomReservedOK As Boolean
         Dim blnIsNightsOK As Boolean
         Dim blnIsAdultsOK As Boolean
-        Dim blnIsChildrenOK As Boolean
+        'Dim blnIsChildrenOK As Boolean
 
         ' store input in variables
         blnIsRoomReservedOK = Integer.TryParse(txtRooms.Text, intRoomsReserved)
