@@ -53,7 +53,7 @@ Public Class frmMain
         Double.TryParse(txtSales.Text, dblSales)
         Double.TryParse(lblCommission.Text, dblCommission)
 
-        If strID = "A1" Or strID = "B2" Or strID = "C3" AndAlso
+        If (strID = "A1" Or strID = "B2" Or strID = "C3") AndAlso
                 dblSales >= 25000 Then
             dblCommission = dblSales * 0.15
             lblCommission.Text = dblCommission.ToString("c2")
@@ -76,9 +76,8 @@ Public Class frmMain
         Double.TryParse(txtSales.Text, dblSales)
         Double.TryParse(lblCommission.Text, dblCommission)
 
-        If strID <> "A1" And strID <> "B2" And strID <> "C3" OrElse
-            dblSales < 25000 And
-            (dblSales > 25000) Then
+        If (strID <> "A1" And strID <> "B2" And strID <> "C3") OrElse
+            dblSales < 25000 Then
             dblCommission = dblSales * 0.12
             lblCommission.Text = dblCommission.ToString("c2")
         Else
