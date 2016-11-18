@@ -64,13 +64,13 @@ Public Class Form1
         '#12 Len/Remove:
         Dim strTax As String = txt12LenRemove.Text
         Dim intNumChars1 As Integer
-        Dim intHold As Integer
-        'Integer.TryParse(strTax, intHold)
+        Dim dblTaxRate As Double
         intNumChars1 = txt12LenRemove.Text.Length
         intNumChars1 = intNumChars1 - 2
         strTax = strTax.Remove(intNumChars1)
-        intHold = intHold * 1000
-        lbl12LenRemove.Text = intHold.ToString
+        Double.TryParse(strTax, dblTaxRate)
+        dblTaxRate = dblTaxRate * 1000
+        lbl12LenRemove.Text = dblTaxRate.ToString
 
         '#13 Like:
         Dim strZip As String = txt13Like.Text
