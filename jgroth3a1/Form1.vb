@@ -68,7 +68,7 @@ Public Class Form1
 
 
         ' *** Begin loop here: repeat as long as input is not empty
-        Do While strNum <= String.Empty
+        Do While strNum <> String.Empty
             ' convert the input to a number
             Int32.TryParse(strNum, intNum)
             ' diplay the input in the text box
@@ -155,6 +155,7 @@ Public Class Form1
         Const strPROMPT As String =
             "Enter quantity of numbers"
         Const strTITLE As String = "Quantity"
+        Dim strInputCount As String = InputBox("Enter quantity of numbers", "Quantity", "0")
         Dim strNum As String
         Dim intNum As Integer
         Dim intSum As Integer
@@ -162,28 +163,27 @@ Public Class Form1
         Dim dblAvg As Double
 
         ' get first sales amount
-        strNum = InputBox(strPROMPT, strTITLE, "0")
-
-
-        ' *** Begin loop here: repeat as long as input is not empty
-
+        strNum = strInputCount
         ' convert the input to a number
         Int32.TryParse(strNum, intNum)
+        ' *** Begin loop here: repeat as long as input is not empty
+        For i As Integer = 1 To intNum
+
             ' diplay the input in the text box
             txtList.Text = txtList.Text &
-                intNum.ToString & ControlChars.NewLine
+                intSum.ToString & ControlChars.NewLine
 
             ' update the counter and accumulator
             intCount = intCount + 1
             intSum = intSum + intNum
 
             ' *** Update control variable
-            strNum = InputBox(strPROMPT, strTITLE, "0")
+            strNum = InputBox(strPROMPT & intCount.ToString, strTITLE)
             ' *** End loop here
+        Next i
 
 
-
-            lblCount.Text = intCount.ToString
+        lblCount.Text = intCount.ToString
         ' verify that the count is greater than 0
         If intCount > 0 Then
             dblAvg = intSum / intCount
